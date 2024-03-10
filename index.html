@@ -21,36 +21,36 @@
     <form>
       <div class="row container">
         <div class="col-md-5">
-          <label for="tarjet" class="form-label mt-2 ms-3">Card #</label>
+          <label for="tarjet" class="form-label mt-2 ms-3 fw-medium">Card #</label>
           <input type="text" class="form-control mt-1 ms-3" id="tarjet" placeholder="XXXXXXXXXXXXXXXXXXXXXXXXX"
             required>
         </div>
         <div class="col-md-3">
-          <label for="tarjet" class="form-label mt-2 ms-3">CVC #</label>
+          <label for="tarjet" class="form-label mt-2 ms-3 fw-medium">CVC #</label>
           <input type="text" class="form-control mt-1 ms-3" id="tarjet" placeholder="000" required>
         </div>
         <div class="col-md-4">
-          <label for="tarjet" class="form-label mt-2 ms-3">Amount</label>
+          <label for="tarjet" class="form-label mt-2 ms-3 fw-medium">Amount</label>
           <input type="text" class="form-control mt-1 ms-3" id="tarjet" placeholder="Amount" required>
         </div>
       </div>
       <div class="row container">
         <div class="col md-6">
-          <label for="tarjet" class="form-label mt-2 ms-3">First Name</label>
+          <label for="tarjet" class="form-label mt-2 ms-3 fw-medium">First Name</label>
           <input type="text" class="form-control mt-1 ms-3" id="tarjet" required>
         </div>
         <div class="col md-6">
-          <label for="tarjet" class="form-label mt-2 ms-3">Last Name</label>
+          <label for="tarjet" class="form-label mt-2 ms-3 fw-medium">Last Name</label>
           <input type="text" class="form-control mt-1 ms-3" id="tarjet" required>
         </div>
       </div>
       <div class="row container">
         <div class="col-md-6">
-          <label for="tarjet" class="form-label mt-2 ms-3">City</label>
+          <label for="tarjet" class="form-label mt-2 ms-3 fw-medium">City</label>
           <input type="text" class="form-control mt-1 ms-3" id="tarjet" required>
         </div>
         <div class="col-md-3">
-          <label for="state" class="form-label mt-2 ms-3">State</label>
+          <label for="state" class="form-label mt-2 ms-3 fw-medium">State</label>
           <select class="form-select mt-2 ms-3 " id="state" aria-label="Default select example">
             <option selected>Pick a state</option>
             <option value="1">Texas</option>
@@ -61,14 +61,14 @@
           </select>
         </div>
         <div class="col-md-3">
-          <label for="tarjet" class="form-label mt-2 ms-3">Postal Code</label>
+          <label for="tarjet" class="form-label mt-2 ms-3 fw-medium">Postal Code</label>
           <input type="text" class="form-control mt-2 ms-3" id="tarjet" required>
         </div>
 
       </div>
       <div class="row container">
-        <label class="form-label mt-2 ms-3">We accept</label>
-        <div class="col-md-6 bg-secondary-subtle rounded">
+        <label class="form-label mt-2 ms-3 fw-medium">We accept</label>
+        <div class="col-md-6">
           <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="CreditOptions" id="mastercard" value="mastercard">
             <label class="form-check-label" for="mastercard"><i class="fa-brands fa-cc-mastercard"></i></label>
@@ -86,11 +86,21 @@
             <label class="form-check-label" for="amazonpay"><i class="fa-brands fa-cc-amazon-pay"></i></label>
           </div>
         </div>
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label mt-2 ms-3 fw-medium">Message</label>
+            <textarea class="form-control mt-2 ms-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <p class="mt-1 ms-3 fs-6 fw-lighter">Add any notes here.</p>
+          </div>
+        </div>
       </div>
-  </div>
-  </form>
-
-  </div>
+      <div class="col-md-12 d-flex justify-content-end bg-body-secondary border border-light-subtle p-3 m-0">
+        <button class="btn btn-secondary me-2">Cancel</button>
+        <button class="btn btn-primary">Send</button>
+      </div>
+    </form>
+    </div>
+ 
 
 
 
